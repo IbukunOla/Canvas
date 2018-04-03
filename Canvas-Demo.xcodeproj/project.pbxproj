@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		26E800C6206993F300BC98EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E800C5206993F300BC98EB /* AppDelegate.swift */; };
-		26E800C8206993F300BC98EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E800C7206993F300BC98EB /* ViewController.swift */; };
 		26E800CB206993F300BC98EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E800C9206993F300BC98EB /* Main.storyboard */; };
 		26E800CD206993F300BC98EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26E800CC206993F300BC98EB /* Assets.xcassets */; };
 		26E800D0206993F300BC98EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E800CE206993F300BC98EB /* LaunchScreen.storyboard */; };
 		26E800DB206993F300BC98EB /* Canvas_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E800DA206993F300BC98EB /* Canvas_DemoTests.swift */; };
 		26E800E6206993F300BC98EB /* Canvas_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E800E5206993F300BC98EB /* Canvas_DemoUITests.swift */; };
+		26E800F42069949A00BC98EB /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E800F32069949A00BC98EB /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		26E800C2206993F300BC98EB /* Canvas-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Canvas-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E800C5206993F300BC98EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		26E800C7206993F300BC98EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		26E800CA206993F300BC98EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26E800CC206993F300BC98EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26E800CF206993F300BC98EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		26E800E1206993F300BC98EB /* Canvas-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Canvas-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E800E5206993F300BC98EB /* Canvas_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas_DemoUITests.swift; sourceTree = "<group>"; };
 		26E800E7206993F300BC98EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E800F32069949A00BC98EB /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				26E800C5206993F300BC98EB /* AppDelegate.swift */,
-				26E800C7206993F300BC98EB /* ViewController.swift */,
+				26E800F32069949A00BC98EB /* CanvasViewController.swift */,
 				26E800C9206993F300BC98EB /* Main.storyboard */,
 				26E800CC206993F300BC98EB /* Assets.xcassets */,
 				26E800CE206993F300BC98EB /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26E800C8206993F300BC98EB /* ViewController.swift in Sources */,
+				26E800F42069949A00BC98EB /* CanvasViewController.swift in Sources */,
 				26E800C6206993F300BC98EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
